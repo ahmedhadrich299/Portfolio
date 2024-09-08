@@ -52,7 +52,7 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
           <TextGenerateEffect
-            words="Hi! I'm Ahmed Hadrich, a Full Stack JavaScript Developer based
+            words="Hi! I'm Ahmed Hadrich, a FullStack JS & Blockchain developer based
             in Tunisia."
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />

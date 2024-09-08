@@ -24,9 +24,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Back-End"
+          title="Back-End / Blockchain"
           icon={<AceternityIcon order="Back-End" />}
-          des="For back-end development, I utilize NodeJS, Express, and NestJS to build robust server-side applications."
+          des="For backend development, I leverage Solidity for building Web3 applications, and use NodeJS, Express, and NestJS to create robust Web2 applications."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -126,7 +126,7 @@ const Card = ({
         </h2>
         {/* add this one for the description */}
         <p
-          className="text-sm opacity-0 group-hover/canvas-card:opacity-100
+          className="text-lg opacity-0 group-hover/canvas-card:opacity-100
          relative z-10 mt-4 group-hover/canvas-card:text-white text-center
          group-hover/canvas-card:-translate-y-2 transition duration-200"
           style={{ color: "#E4ECFF" }}

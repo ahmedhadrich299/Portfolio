@@ -20,7 +20,7 @@ const RecentProjects = () => {
             {" "}
             <a href={item.link} target="_blank">
               <PinContainer title={"visit"}>
-                <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
+                <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[21vh] mb-10">
                   <div
                     className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                     style={{ backgroundColor: "#13162D" }}
@@ -39,7 +39,7 @@ const RecentProjects = () => {
                 </h1>
 
                 <p
-                  className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
+                  className="lg:text-xl lg:font-normal font-light text-sm line-clamp-4"
                   style={{
                     color: "#BEC1DD",
                     margin: "1vh 0",

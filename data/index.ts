@@ -38,7 +38,8 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for JavaScript development.",
+    title:
+      "Tech enthusiast with a passion for JavaScript and Solidity development.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,7 +50,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a Full Stack Next application",
+    title: "Currently building web3 decentralized apps",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -73,7 +74,7 @@ export const projects = [
   {
     id: 1,
     title: "TOOG",
-    des: "Toog is the best platform in France that allows you to find and book over 1,500 leisure activities at the last minute!",
+    des: "With over 20k clients and 600k activities, Toog is a platform for discovering / booking leisure activities. Developed using ReactJS and PHP.",
     img: "/p2.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://www.toog-app.com/",
@@ -81,10 +82,18 @@ export const projects = [
   {
     id: 2,
     title: "Youtube clone",
-    des: "This project replicates core functionalities of YouTube, including video playback, search capabilities, and user interface elements",
+    des: "This project replicates YouTube's front end, developed using ReactJS and TailwindCSS to create a responsive and visually appealing user interface.",
     img: "/p1.png",
     iconLists: ["/re.svg", "/tail.svg"],
     link: "https://youtube-clone-66.netlify.app/",
+  },
+  {
+    id: 2,
+    title: "CrowdFunding Dapp",
+    des: "A Web3 Crowdfunding Decentralized Application (DApp) built with Solidity and ReactJS, enabling secure fundraising on the blockchain",
+    img: "/p3.png",
+    iconLists: ["/re.svg", "/tail.svg"],
+    link: "https://crowdfunding1824.netlify.app/",
   },
 
   // {
@@ -174,7 +183,8 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Freelance JavaScript developer",
+    title: "JavaScript developer",
+    subTitle: "Freelance 05/2022 - 01/2023",
     desc: "Designing, coding responsive websites that contains dynamic contents depending on user choice using HTML,CSS, javascript and Wordpress.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
@@ -182,20 +192,23 @@ export const workExperience = [
   {
     id: 2,
     title: "Full Stack TypeScript developer Intern",
+    subTitle: "ZNet-IT 01/2023 - 06/2023",
     desc: "Participation in the development of Industry 4.0 solution. Utilized cutting-edge technologies such as Material-UI, React, TypeScript, Redux, and Node.js.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Front-end Next JS developer",
+    title: "Front-End NextJS developer",
+    subTitle: "Freelance 02/2023 - 06/2023",
     desc: "Creating high fidelity interfaces using NextJS, TailwindCSS, and Redux.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Front end React Developer",
+    title: "Front-End NextJS Developer",
+    subTitle: "Nehos-Groupe 06/2023 - Now",
     desc: "Redesign an existing activity booking website using React, ReactBootstrap and AntDesign. Boosted website SEO through the creation of a sitemap and the implementation of prerendering techniques.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
