@@ -73,14 +73,31 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Playpro",
+    des: "Playpro is an all-in-one management software for leisure activities. Developed using NextJS and PHP.",
+    img: "/p4.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://playpro.fr/",
+  },
+  {
+    id: 2,
+    title: "TOOG Team Building",
+    des: "Toog Team Building is a platform for discovering / booking team building activities. Developed using NextJS and PHP.",
+    img: "/p5.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://teambuilding.toog-app.com/",
+  },
+  {
+    id: 3,
     title: "TOOG",
-    des: "With over 20k clients and 600k activities, Toog is a platform for discovering / booking leisure activities. Developed using ReactJS and PHP.",
+    des: "With over 23k clients and 900k activities, Toog is a platform for discovering / booking leisure activities. Developed using ReactJS and PHP.",
     img: "/p2.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://www.toog-app.com/",
   },
+
   {
-    id: 2,
+    id: 4,
     title: "Youtube clone",
     des: "This project replicates YouTube's front end, developed using ReactJS and TailwindCSS to create a responsive and visually appealing user interface.",
     img: "/p1.png",
@@ -88,7 +105,7 @@ export const projects = [
     link: "https://youtube-clone-66.netlify.app/",
   },
   {
-    id: 2,
+    id: 5,
     title: "CrowdFunding Dapp",
     des: "A Web3 Crowdfunding Decentralized Application (DApp) built with Solidity and ReactJS, enabling secure fundraising on the blockchain",
     img: "/p3.png",
@@ -96,14 +113,6 @@ export const projects = [
     link: "https://crowdfunding1824.netlify.app/",
   },
 
-  // {
-  //   id: 3,
-  //   title: "HTML and CSS template",
-  //   des: "I created a responsive website using HTML and CSS to highlight my skills in front-end web development. This project features a clean and modern design with a focus on user experience and accessibility",
-  //   img: "/p3.svg",
-  //   iconLists: [],
-  //   link: "https://ahmedhadrich299.github.io/Responsive-design/",
-  // },
   // {
   //   id: 4,
   //   title: "Animated Apple Iphone 3D Website",
